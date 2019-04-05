@@ -13,7 +13,6 @@ Client.close()
 page_soup = soup(page_html, 'html.parser')
 
 containers = page_soup.find_all('div', class_='_1umis')
-#container = containers[0]
 
 f.write('Phone, Rating, Price \n')
 
